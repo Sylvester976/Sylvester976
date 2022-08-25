@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Sylvester976
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning codeigniter
-- 💞️ I’m looking to collaborate on ...
+- 👀 I’m interested in Data Science
+- 🌱 I’m currently a backend web developer
+- 💞️ I’m looking to collaborate on anthying as long as I am ready to learn
 - 📫 How to reach me officialotienosylvester@gmail.com
 
 <!---
