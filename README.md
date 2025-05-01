@@ -1,28 +1,17 @@
-<!-- Banner (replace the image URL with your uploaded banner path) -->
-<p align="center">
-  <img src="https://github.com/sylvesterotieno/sylvesterotieno/blob/main/assets/banner.png" alt="Sylvester Otieno Banner" />
-</p>
+👋 Hi, I'm Sylvester Otieno!
 
-<!-- Animated Greeting -->
-<h3 align="center">Welcome to my GitHub 👨‍💻</h3>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Hi+I'm+Sylvester+Otieno;Full+Stack+Developer;Open+Source+Contributor;Lifelong+Learner+📚;Let's+build+something+awesome+💻" alt="Typing SVG" />
-</p>
+🔧 Passionate about coding, problem-solving, and building cool projects.
 
----
+🌱 Always learning and exploring new technologies.
 
-### 👋 Hi, I'm Sylvester Otieno!
+💻 Working with multiple languages to build scalable applications.
 
-🔧 Passionate about coding, problem-solving, and building cool projects.  
-🌱 Always learning and exploring new technologies.  
-💻 Working with multiple languages to build scalable applications.  
-📚 Open to collaboration and always looking to contribute to open-source!  
+📚 Open to collaboration and always looking to contribute to open-source!
+
 💬 Let's connect! Feel free to check out my repositories, and don't hesitate to reach out!
 
-📬 Email: officialotienosylvester@gmail.com  
-📎 LinkedIn: [linkedin.com/in/sylvester-otieno](https://linkedin.com/in/sylvester-otieno)
-
----
+📬 Email: officialotienosylvester@gmail.com
+📎 LinkedIn: linkedin.com/in/sylvester-otieno
 
 ### 💻 Tech Stack
 
@@ -57,15 +46,6 @@
 
 ---
 
-### 📊 GitHub Contribution Graph
-
-![GitHub Contribution Graph](https://github.com/sylvesterotieno/sylvesterotieno/blob/main/assets/github-contribution-graph.png)
-
----
-
-### 🔥 GitHub Streak
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=sylvesterotieno&theme=radical)](https://git.io/streak-stats)
 
 
 <!---
