@@ -58,3 +58,4 @@
 
 
 ![Sylvester Otieno's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sylvester976&show_icons=true&theme=gruvbox)
+![Most Used Languages](https://m-b-s.vercel.app/api/top-langs/?username=Sylvester976&layout=compact&theme=gruvbox)
