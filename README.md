@@ -5,7 +5,6 @@
 💻 Working with multiple languages to build scalable applications.  
 📚 Open to collaboration and always looking to contribute to open-source!  
 💬 Let's connect! Feel free to check out my repositories, and don't hesitate to reach out!
----
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sylvester-otieno) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:officialotienosylvester@gmail.com) 
