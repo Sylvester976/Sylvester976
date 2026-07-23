@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Sylvester Otieno — Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="55%" stop-color="#131926"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#E10600" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#E10600" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#1B2231" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="300" rx="12"/></clipPath>
+
+    <!-- circuit centreline -->
+    <path id="circuit"
+      d="M120 236 C 60 236, 44 196, 92 178 C 150 156, 250 196, 322 178
+         C 396 160, 402 104, 470 94 C 548 82, 596 132, 668 130
+         C 742 128, 764 88, 828 92 C 906 97, 936 148, 906 190
+         C 880 226, 800 236, 700 238 L 120 236 Z"/>
+
+    <!-- car body, drawn once, reused -->
+    <g id="car">
+      <ellipse cx="0" cy="0" rx="15" ry="5.5" fill="#111722"/>
+      <rect x="-14" y="-4.6" width="28" height="9.2" rx="4.6" fill="currentColor"/>
+      <rect x="-16" y="-7.4" width="6.4" height="3.4" rx="1.4" fill="#0D1119"/>
+      <rect x="-16" y="4" width="6.4" height="3.4" rx="1.4" fill="#0D1119"/>
+      <rect x="9.6" y="-7.4" width="6.4" height="3.4" rx="1.4" fill="#0D1119"/>
+      <rect x="9.6" y="4" width="6.4" height="3.4" rx="1.4" fill="#0D1119"/>
+      <rect x="-17" y="-5.6" width="3.4" height="11.2" rx="1.2" fill="#161D2A"/>
+      <rect x="13.4" y="-4.4" width="4" height="8.8" rx="1.2" fill="#161D2A"/>
+      <circle cx="1" cy="0" r="2.6" fill="#0B0E14"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)" opacity="0.5"/>
+    <ellipse cx="500" cy="200" rx="440" ry="130" fill="url(#glow)"/>
+
+    <!-- kerb stripe, top -->
+    <rect x="0" y="0" width="1000" height="6" fill="#E10600"/>
+    <g fill="#F2F2F2">
+      <rect x="40" y="0" width="20" height="6"/><rect x="100" y="0" width="20" height="6"/>
+      <rect x="160" y="0" width="20" height="6"/><rect x="220" y="0" width="20" height="6"/>
+      <rect x="280" y="0" width="20" height="6"/><rect x="340" y="0" width="20" height="6"/>
+    </g>
+
+    <!-- ===== CIRCUIT ===== -->
+    <use href="#circuit" xlink:href="#circuit" fill="none" stroke="#151C29" stroke-width="30" stroke-linejoin="round"/>
+    <use href="#circuit" xlink:href="#circuit" fill="none" stroke="#1F2839" stroke-width="28" stroke-linejoin="round"/>
+    <use href="#circuit" xlink:href="#circuit" fill="none" stroke="#39445A" stroke-width="1.6"
+         stroke-dasharray="9 13" opacity="0.65"/>
+
+    <!-- start/finish line -->
+    <g transform="translate(700,238) rotate(88)">
+      <rect x="-1" y="-15" width="9" height="30" fill="#0E131C"/>
+      <g fill="#EDEFF3">
+        <rect x="-1" y="-15" width="4.5" height="5"/><rect x="3.5" y="-10" width="4.5" height="5"/>
+        <rect x="-1" y="-5" width="4.5" height="5"/><rect x="3.5" y="0" width="4.5" height="5"/>
+        <rect x="-1" y="5" width="4.5" height="5"/><rect x="3.5" y="10" width="4.5" height="5"/>
+      </g>
+    </g>
+
+    <!-- ===== CARS ===== -->
+    <!-- leader -->
+    <g color="#E10600">
+      <use href="#car" xlink:href="#car">
+        <animateMotion dur="7s" repeatCount="indefinite" rotate="auto" keyPoints="0;1"
+                       keyTimes="0;1" calcMode="linear">
+          <mpath href="#circuit" xlink:href="#circuit"/>
+        </animateMotion>
+      </use>
+    </g>
+    <!-- chasing car, half a lap back -->
+    <g color="#00E5A0">
+      <use href="#car" xlink:href="#car">
+        <animateMotion dur="7s" repeatCount="indefinite" rotate="auto" begin="-3.1s"
+                       keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+          <mpath href="#circuit" xlink:href="#circuit"/>
+        </animateMotion>
+      </use>
+    </g>
+    <!-- third car, further back -->
+    <g color="#7A8699">
+      <use href="#car" xlink:href="#car" opacity="0.75">
+        <animateMotion dur="7s" repeatCount="indefinite" rotate="auto" begin="-5.4s"
+                       keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+          <mpath href="#circuit" xlink:href="#circuit"/>
+        </animateMotion>
+      </use>
+    </g>
+
+    <!-- ===== TEXT PLATE ===== -->
+    <rect x="52" y="52" width="470" height="112" rx="8" fill="#0B0E14" opacity="0.82"/>
+
+    <!-- start lights -->
+    <g transform="translate(72,78)">
+      <rect x="-9" y="-11" width="176" height="36" rx="5" fill="#0D1119" stroke="#232D3E"/>
+      <circle cx="8"   cy="7" r="8" fill="#2A1113"><animate attributeName="fill" values="#2A1113;#E10600;#E10600;#2A1113" keyTimes="0;0.06;0.62;0.66" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="39"  cy="7" r="8" fill="#2A1113"><animate attributeName="fill" values="#2A1113;#2A1113;#E10600;#E10600;#2A1113" keyTimes="0;0.05;0.11;0.62;0.66" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="70"  cy="7" r="8" fill="#2A1113"><animate attributeName="fill" values="#2A1113;#2A1113;#E10600;#E10600;#2A1113" keyTimes="0;0.10;0.16;0.62;0.66" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="101" cy="7" r="8" fill="#2A1113"><animate attributeName="fill" values="#2A1113;#2A1113;#E10600;#E10600;#2A1113" keyTimes="0;0.15;0.21;0.62;0.66" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="132" cy="7" r="8" fill="#2A1113"><animate attributeName="fill" values="#2A1113;#2A1113;#E10600;#E10600;#2A1113" keyTimes="0;0.20;0.26;0.62;0.66" dur="7s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="72" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="38" font-weight="800" letter-spacing="-1" fill="#F5F7FA">SYLVESTER OTIENO</text>
+    <text x="74" y="154" font-family="'Consolas', 'SF Mono', monospace"
+          font-size="12" letter-spacing="3.2" fill="#00E5A0">SOFTWARE ENGINEER · FULL STACK · NAIROBI</text>
+
+    <!-- driver number -->
+    <text x="948" y="76" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="62" font-weight="800" fill="#E10600" opacity="0.20">976</text>
+
+    <rect x="-320" y="0" width="320" height="300" fill="url(#sweep)">
+      <animate attributeName="x" from="-320" to="1000" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="1000" height="300" rx="12" fill="none" stroke="#232D3E" stroke-width="2"/>
+  </g>
+</svg>
