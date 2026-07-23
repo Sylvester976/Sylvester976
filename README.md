@@ -106,8 +106,8 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Sylvester976&show_icons=true&hide_border=true&include_all_commits=false&count_private=false&bg_color=0B0E14&title_color=E10600&icon_color=00E5A0&text_color=8B95A6" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sylvester976&layout=compact&hide_border=true&bg_color=0B0E14&title_color=E10600&text_color=8B95A6" />
+<img height="165" src="https://github-readme-stats-rho-eight-43.vercel.app/api?username=Sylvester976&show_icons=true&hide_border=true&include_all_commits=false&count_private=false&bg_color=0B0E14&title_color=E10600&icon_color=00E5A0&text_color=8B95A6" />
+<img height="165" src="https://github-readme-stats-rho-eight-43.vercel.app/api/top-langs/?username=Sylvester976&layout=compact&hide_border=true&bg_color=0B0E14&title_color=E10600&text_color=8B95A6" />
 
 <img height="165" src="https://streak-stats.demolab.com?user=Sylvester976&hide_border=true&background=0B0E14&ring=E10600&fire=E10600&currStreakLabel=00E5A0&sideLabels=8B95A6&dates=4A5468&stroke=1D2534&sideNums=8B95A6&currStreakNum=F5F7FA&dayNums=F5F7FA" />
 
