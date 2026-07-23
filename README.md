@@ -16,14 +16,22 @@
 📚 Open to collaboration and always looking to contribute to open-source!
 💬 Let's connect! Feel free to check out my repositories, and don't hesitate to reach out!
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-dark.svg" width="100%" height="16" alt="">
+</picture>
 
 ## 🌐 Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sylvester-otieno)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:officialotienosylvester@gmail.com)
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-dark.svg" width="100%" height="16" alt="">
+</picture>
 
 ## 💻 Tech Stack
 
@@ -100,7 +108,11 @@
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%23298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-dark.svg" width="100%" height="16" alt="">
+</picture>
 
 ## 📊 GitHub Stats
 
