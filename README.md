@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Sylvester Otieno — Software Engineer, Full Stack, Nairobi" src="./assets/hero-dark.svg" width="100%">
+  <img alt="Sylvester Otieno — Software Engineer, Nairobi" src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 </div>

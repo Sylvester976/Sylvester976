@@ -114,7 +114,7 @@
     <text x="72" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
           font-size="38" font-weight="800" letter-spacing="-1" fill="#F5F7FA">SYLVESTER OTIENO</text>
     <text x="74" y="154" font-family="'Consolas', 'SF Mono', monospace"
-          font-size="12" letter-spacing="3.2" fill="#00E5A0">SOFTWARE ENGINEER · FULL STACK · NAIROBI</text>
+          font-size="12" letter-spacing="3.2" fill="#00E5A0">SOFTWARE ENGINEER · NAIROBI</text>
 
     <!-- driver number -->
     <text x="948" y="76" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
